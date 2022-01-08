@@ -1,7 +1,9 @@
+import { SideBar } from './components/SideBar/SideBar'
+
 function App() {
   return (
-    <div>
-      Hollo word
+    <div className='content'>      
+      <SideBar/>
     </div>
   );
 }
