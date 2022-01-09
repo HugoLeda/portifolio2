@@ -1,20 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 .card {
-  background-color: #302F3D;
-  color: #837E9F;
-  width: 348px;
-  height: 292px;
-  border-radius: 20px;
-  box-shadow: 3px 3px 5px 2px rgba(0,0,0,0.68);
-  padding: 32px 0;
-
-  font-family: 'Merriweather Sans', sans-serif;
   
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center; 
+
+  padding: 32px 0;
 
   .foto {
     display: flex;

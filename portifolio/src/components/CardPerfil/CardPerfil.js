@@ -1,3 +1,4 @@
+import '../../style/card.scss'
 import './Card.scss'
 import FotoPerfil from './perfil.png'
 
