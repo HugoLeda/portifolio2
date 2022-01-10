@@ -1,0 +1,18 @@
+.infos {
+  align-items: flex-start;
+  color: #837E9F;
+
+  .linha {
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+    
+    svg {
+      color: #837E9F;
+    }
+    img {
+      margin: 0.5rem 1rem 0.5rem 2rem;      
+    }
+  }
+}
