@@ -1,0 +1,44 @@
+.card-tech {  
+  height: 208px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 2rem 0;
+
+  .titulo-tech {
+    margin-left: -200px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .tech {
+      width: 86px;
+      height: 24px;
+      margin: 10px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: #CB92B1;
+      border-radius: 30px;
+
+      color: #000;
+      font-family: 'Merriweather Sans';
+      font-size: 10px;
+      font-weight: bold;
+
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+}

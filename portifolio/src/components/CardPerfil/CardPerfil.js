@@ -4,7 +4,7 @@ import FotoPerfil from './perfil.png'
 
 export function CardPerfil() {
   return (
-    <div className='card'>
+    <div className='card card-perfil'>
       <div className='foto'>
         <img src={FotoPerfil}/>
       </div>
