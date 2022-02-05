@@ -1,0 +1,30 @@
+.card-lista {
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 2rem 0;
+
+  .titulo {    
+    margin: 0 0 0.8rem -200px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+    font-size: 14px;
+
+    :first-child {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+}
+
+
