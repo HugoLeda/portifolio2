@@ -18,7 +18,7 @@ export function Feed() {
           <div className='card card-projeto'>
             <div className='top'>
               <img src={folder} alt='icone pasta'/>
-              <span>salao-de-belesa</span>
+              <a href='https://github.com/HugoLeda/Salao-de-Beleza' target='blank' title='Ver repositório no GitHub'>salao-de-belesa</a>
             </div>
             <p>
               Software desenvolvido para o gerenciamento do Salão da Laura: @salao_dalaura

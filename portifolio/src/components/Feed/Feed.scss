@@ -26,6 +26,58 @@
     .card-projeto {
       height: 186px;
       width: calc(50% - 1.5rem);
+
+      padding: 2rem 1rem 0 1rem;
+
+      .top {
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        a {
+          margin-left: 1rem;
+          text-decoration: none;
+          color: #837E9F;
+        }
+      }
+
+      p {
+        font-size: 14px;
+        text-align: justify;
+      }
+      .botton {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-top: 1rem;
+
+        div {
+          display: inherit;
+          align-items: inherit;
+
+          img {
+            width: 16px;
+            margin-right: 4px;
+          }
+
+          span {
+            margin-right: 8px;
+          }
+
+          .linguagem {
+            width: 16px;
+            height: 16px;
+            margin-right: 4px;
+
+            border-radius: 50px;
+            border: 2px solid #837E9F;
+            background-color: #E7DE79;
+          }
+        }
+      }
+
     }
   }
   
