@@ -19,8 +19,14 @@
     }
   }
 
-  .card-projeto {
-    height: 186px;
-    width: 461px;
+  .cards-projeto {
+    display: flex;
+    justify-content: space-between;
+
+    .card-projeto {
+      height: 186px;
+      width: calc(50% - 1.5rem);
+    }
   }
+  
 }
