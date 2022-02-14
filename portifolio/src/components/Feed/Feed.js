@@ -26,9 +26,9 @@ export function Feed() {
             <div className='botton'>
               <div>
                 <img src={star} alt='estrela' />
-                <span>1</span>
+                <span>3</span>
                 <img src={git_branch} alt='branch' />
-                <span>5</span>
+                <span>1</span>
               </div>
               <div>
                 <div className='linguagem'></div>
@@ -36,9 +36,31 @@ export function Feed() {
               </div>
             </div>
           </div>
+          
           <div className='card card-projeto'>
-            
+            <div className='top'>
+              <img src={folder} alt='icone pasta'/>
+              <a href='https://github.com/HugoLeda/discover-fundamentar-rocketseat' target='blank' title='Ver repositório no GitHub'>discover-fundamentar-rocketseat</a>
+            </div>
+            <p>
+              Exercícios propostos durante a trilha fundamentar no curso discover da Rocketseat
+            </p>
+            <div className='botton'>
+              <div>
+                <img src={star} alt='estrela' />
+                <span>1</span>
+                <img src={git_branch} alt='branch' />
+                <span>5</span>
+              </div>
+              <div>
+                <div className='linguagem'></div>
+                <span>JavaScript</span>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className='card' id='meus-projetos'>
+          <h3>Recent Posts</h3>          
         </div>
       </div>
     </div>
